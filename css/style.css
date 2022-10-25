@@ -2,6 +2,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.btn-danger, #teste1 {
+    background-color: #d63384;
+    border-color: #d63384;
+}
+
 nav {
     position: relative;
     align-items: center;
@@ -71,6 +76,11 @@ main {
     margin-top: 10vh;
 }
 
+.coracao {
+    color: #d63384;
+    text-align: center;
+}
+
 .container-unico {
     margin-top: 4vh;
     margin-bottom: 4vh;
@@ -100,9 +110,8 @@ p {
     justify-content: center;
 }
     .caixa:focus {
-        color: rgb(56, 56, 255);
-        border-color: rgb(56, 56, 255)blue;
-        transition: .4s;
+        border-color: #d63384;
+        transition: .1s;
     }
 
 #negrito {
@@ -136,10 +145,10 @@ p {
     height: 58px;
     background-color: white;
 }
-.botao:focus {
-    background-color: rgb(227, 244, 255);
+.botao:focus, .caixa:focus {
+    background-color: #fff6f9;
     transition: .5s;
-    color: rgb(56, 56, 255);
+    color: #d63384;
 }
 
 #svgF {
